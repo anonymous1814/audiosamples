@@ -95,6 +95,8 @@
 					border-bottom: 1px solid black; /* 数据行底部边框 */
 					padding: 10px;
 					text-align: center;
+					.no-bottom-border td {
+					    border-bottom: none;
 				}
 				tfoot td {
 					border-top: 2px solid black; /* 表尾顶部边框 */
@@ -145,7 +147,7 @@
 					<td>0.0117</td>
 					<td>2.87</td>
 				  </tr>
-				  <tr>
+				  <tr class="no-bottom-border">
 					<td class="left-align">Mat-2</td>
 					<td>14.2</td>
 					<td>0.0300</td>
